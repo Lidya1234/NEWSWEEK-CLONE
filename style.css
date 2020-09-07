@@ -12,7 +12,7 @@
   background-color: #ff0500;
 }
 
-.btn {
+.btn-sub {
   height: 25px;
   line-height: 1;
 }
@@ -89,4 +89,22 @@ p {
 .my-turn span {
   background-color: #c2d4d7;
   font-size: 13px;
+}
+
+.form-group
+{
+    width:50%;
+    margin:auto;
+}
+.N {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color:#ff0500;
+
+}
+
+.form button
+{
+    background-color:#ff0500;
 }
