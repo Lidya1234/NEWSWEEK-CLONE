@@ -31,7 +31,7 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 2px 7px 3px 7px;
+  padding: 2px 7px;
 }
 
 p {
@@ -67,23 +67,26 @@ p {
   position: relative;
 }
 
-.More-Stories
-{
-    margin-top:8%;
+.More-Stories {
+  margin-top: 8%;
 }
 
-.more-stories-flex
-{
-    margin-top:5%;
+.more-stories-flex {
+  margin-top: 5%;
+  border-top: 1px solid #ddd;
+  padding: 5%;
 }
 
-.more-stories-flex img
-{
-    float:left;
-    margin-right: 5%;
+.more-stories-flex img {
+  float: left;
+  margin-right: 5%;
 }
 
-.more-stories-flex p
-{
-    float:right;
+.more-stories-flex p {
+  float: right;
+}
+
+.my-turn span {
+  background-color: #c2d4d7;
+  font-size: 13px;
 }
