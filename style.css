@@ -9,6 +9,7 @@
   width: 100%;
   padding: 0;
 }
+
 .navbar {
   background-color: #ff0500;
 }
@@ -97,7 +98,7 @@ p {
   margin: auto;
 }
 .N {
- background-color: #ff0500;
+  background-color: #ff0500;
 }
 
 .form button {
@@ -108,3 +109,25 @@ p {
   font-size: 14px;
 }
 
+.two-img-covers {
+  height: 350px;
+}
+
+.img-cover-1,
+.img-cover-2 {
+  width: 200px;
+}
+
+.img-cover-1 {
+  margin-left: 18px;
+}
+
+.img-cover-2 {
+  top: 30px;
+  left: 95px;
+}
+
+.two-img-covers p {
+  bottom: 8px;
+  font-size: 20px;
+}
