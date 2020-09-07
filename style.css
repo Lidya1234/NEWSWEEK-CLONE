@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  line-height: 1.3;
 }
 
 .container-fluid {
@@ -96,9 +97,9 @@ p {
   margin: auto;
 }
 .N {
-  width: 70px;
+  /* width: 70px;
   height: 30px;
-  line-height: 30px;
+  line-height: 30px; */
   background-color: #ff0500;
 }
 
@@ -109,3 +110,4 @@ p {
 .form h6 {
   font-size: 14px;
 }
+
