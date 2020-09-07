@@ -1,0 +1,45 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  width: 5px;
+  height: 18px;
+}
+.container-fluid
+{
+    width:100%;
+
+    padding:0;
+}
+.navbar {
+  background-color:  #f72210;;
+
+}
+
+.btn {
+  height: 25px;
+  line-height:1;
+}
+.nav-btns {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+main {
+    margin-top: 5%;
+  }
+  .main-img {
+    position: relative;
+  }
+  .corner-txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px 7px 3px 7px;
+  }
+  p {
+    font-size: 14px;
+  }
