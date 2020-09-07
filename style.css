@@ -66,3 +66,24 @@ p {
   border-style: solid none;
   position: relative;
 }
+
+.More-Stories
+{
+    margin-top:8%;
+}
+
+.more-stories-flex
+{
+    margin-top:5%;
+}
+
+.more-stories-flex img
+{
+    float:left;
+    margin-right: 5%;
+}
+
+.more-stories-flex p
+{
+    float:right;
+}
