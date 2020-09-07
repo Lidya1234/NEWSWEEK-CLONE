@@ -91,20 +91,21 @@ p {
   font-size: 13px;
 }
 
-.form-group
-{
-    width:50%;
-    margin:auto;
+.form-group {
+  width: 50%;
+  margin: auto;
 }
 .N {
-    width: 70px;
-    height: 30px;
-    line-height: 30px;
-    background-color:#ff0500;
-
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #ff0500;
 }
 
-.form button
-{
-    background-color:#ff0500;
+.form button {
+  background-color: #ff0500;
+}
+
+.form h6 {
+  font-size: 14px;
 }
