@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+.middle-top-story {
+  display: none;
+}
+
 .navbar {
   background-color: #ff0500;
 }
@@ -150,6 +154,11 @@ p {
   width: 260px;
 }
 
+.news-img
+{
+  display:none;
+}
+
 /* Media queries tablet */
 @media (min-width: 768px) {
   .small {
@@ -160,6 +169,16 @@ p {
     display: block;
   }
 
+
+  .top-story {
+    display: none;
+  }
+
+  .middle-top-story {
+      display: initial;
+  }
+
+
   .hidden-sm {
     display: initial;
   }
@@ -167,5 +186,10 @@ p {
   .hidden-md {
     display: none;
   }
+
+  .news-img
+{
+  display:block;
+}
   
 }
