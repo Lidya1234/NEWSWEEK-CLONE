@@ -15,8 +15,13 @@
 }
 
 .btn-sub {
-  height: 25px;
+  
   line-height: 1;
+}
+
+.medium
+{
+display:none;
 }
 .nav-btns {
   margin-top: 1%;
@@ -134,4 +139,15 @@ p {
 
 .no-resize {
   width: 260px;
+}
+@media (min-width: 768px)  { 
+.small
+{
+display:none;
+}
+
+.medium
+{
+  display:block;
+}
 }
