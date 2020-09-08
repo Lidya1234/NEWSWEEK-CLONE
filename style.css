@@ -10,7 +10,6 @@ p {
   font-size: 14px;
 }
 
-
 /* Navbar */
 
 .navbar {
@@ -24,6 +23,11 @@ p {
 .login {
   display: none;
 }
+
+.top-links {
+  display: none;
+}
+
 /* Main */
 
 main {
@@ -169,5 +173,13 @@ main {
   }
   .news-img {
     display: block;
+  }
+}
+
+/* Media query for small laptop */
+
+@media (min-width: 992px) {
+  .top-links {
+    display: flex;
   }
 }
