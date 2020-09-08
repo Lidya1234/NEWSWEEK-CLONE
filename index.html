@@ -26,26 +26,24 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <nav class="navbar d-flex justify-content-between">
-        <img src="images/v-small-logo.png" alt="pic here" class="img-fluid" />
-        <div class="nav-btns align-bottom d-flex">
-          <i class="fas fa-user text-white pt-2 small"></i>
-          <a
-            href="#"
-            class="text-decoration-none text-dark font-weight-bolder pt-1 medium"
-            >LOGIN</a
-          >
-          <button
-            type="button"
-            class="btn-sub btn btn-warning font-weight-bolder btn-sm rounded-pill text-center"
-          >
-            SUBSCRIBE<i class="fas fa-angle-right"></i>
-          </button>
-          <i class="fas fa-bars text-white pt-1"></i>
-        </div>
-      </nav>
-    </header>
+    <nav class="navbar justify-content-between">
+      <div class="nav-img">
+        <a class="d-block w-100" href="#">
+          <img class="w-100" src="images/v-small-logo.png" alt="" />
+        </a>
+      </div>
+      <div class="w-50 d-flex justify-content-end align-items-center">
+        <span class="login text-white font-weight-bolder">LOGIN</span>
+        <i class="user-pfp fa-xs fas fa-user text-white"></i>
+        <button
+          type="button"
+          class="btn rounded-pill btn-warning ml-1 px-1 py-0 font-weight-bolder"
+        >
+          SUBSCRIBE
+        </button>
+        <i class="fa-xs fas fa-bars text-white mx-1"></i>
+      </div>
+    </nav>
     <main class="container-fluid">
       <div class="top-story">
         <h6 class="text-black-50">TOP STORY</h6>

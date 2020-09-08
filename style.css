@@ -17,18 +17,13 @@ p {
   background-color: #ff0500;
 }
 
-.btn-sub {
-  line-height: 1;
+.nav-img {
+  width: 144px;
 }
 
-.medium {
+.login {
   display: none;
 }
-.nav-btns {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
 /* Main */
 
 main {
@@ -165,14 +160,13 @@ main {
     display: initial;
   }
 
-  .hidden-sm {
+  .login {
     display: initial;
   }
 
-  .hidden-md {
+  .user-pfp {
     display: none;
   }
-
   .news-img {
     display: block;
   }
