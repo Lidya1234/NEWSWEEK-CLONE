@@ -31,8 +31,13 @@ display:none;
 main {
   margin-top: 5%;
 }
+
 .main-img {
   position: relative;
+}
+
+.section-1.main-img{
+  width: 100%;
 }
 .corner-txt {
   position: absolute;
@@ -120,16 +125,17 @@ p {
 
 .img-cover-1,
 .img-cover-2 {
-  width: 180px;
+  width: 200px;
 }
 
 .img-cover-1 {
-  margin-left: 18px;
+  left: 25%;
 }
 
 .img-cover-2 {
   top: 30px;
-  left: 95px;
+  left: 25%;
+  margin-left: 90px;
 }
 
 .two-img-covers p {
