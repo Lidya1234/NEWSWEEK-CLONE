@@ -76,7 +76,7 @@ p {
 .more-stories-flex {
   margin-top: 5%;
   border-top: 1px solid #ddd;
-  padding: 5%;
+  padding: 5% 0;
 }
 
 .more-stories-flex img {
@@ -110,12 +110,12 @@ p {
 }
 
 .two-img-covers {
-  height: 350px;
+  height: 300px;
 }
 
 .img-cover-1,
 .img-cover-2 {
-  width: 200px;
+  width: 180px;
 }
 
 .img-cover-1 {
@@ -128,6 +128,10 @@ p {
 }
 
 .two-img-covers p {
-  bottom: 8px;
+  bottom: 0;
   font-size: 20px;
+}
+
+.no-resize {
+  width: 260px;
 }
