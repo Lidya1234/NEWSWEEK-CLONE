@@ -1,6 +1,6 @@
 /* General */
-:root{
- --red: #ff0500;
+:root {
+  --red: #ff0500;
 }
 
 * {
@@ -8,7 +8,6 @@
   padding: 0;
   line-height: 1.3;
 }
-
 
 p {
   font-size: 14px;
@@ -18,20 +17,19 @@ p {
 
 .navbar {
   background-color: var(--red);
- 
-  top:0;
-  left:0;
- 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
 }
 
-.navbar-lg
-{
-  height:100px;
+.navbar-lg {
+  height: 100px;
 }
 
-.nav-img-lg img{
-  width:250px;
- 
+.nav-img-lg img {
+  width: 250px;
 }
 
 .nav-img {
@@ -42,25 +40,24 @@ p {
   display: none;
 }
 
-.top-links {
-  display: none;
-}
 
-.top-links a{
+.top-links a {
   font-size: 18px;
-  color:black;
+  color: black;
 }
 
-.top-links a:hover{
- 
+.top-links a:hover {
   color: #ff0500;
 }
 
-.lower-links a
-{ font-size: 16px;
-  color:gray;
+.lower-links a {
+  font-size: 16px;
+  color: gray;
 }
 
+.input-sm {
+  width: 70px;
+}
 
 /* Main */
 
@@ -134,7 +131,7 @@ main {
 }
 
 .N {
-  background-color:var(red);
+  background-color: var(red);
 }
 
 .form button {
@@ -213,7 +210,8 @@ main {
 /* Media query for small laptop */
 
 @media (min-width: 992px) {
-  .top-links {
-    display: flex;
+
+  header {
+    margin-top: 115px;
   }
 }
