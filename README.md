@@ -7,8 +7,13 @@ First Bootstrap project of Lidya Ghebreigziabher and Meron Ogubai
 
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a collaborative project which recreates a responsive clone of the NEWSWEEK website using bootstrap.
 
-<i>Built With HTML5, CSS3, GIT, and VSCODE</i>
+## Built With
+ HTML5
+ CSS3
+ GIT
+ VSCODE
 
+## Live Demo
 Live Demo : [The-livedemo-link](https://pedantic-spence-937d4e.netlify.app)
 
 <h1>Getting Started</h1>
