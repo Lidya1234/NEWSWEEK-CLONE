@@ -18,6 +18,20 @@ p {
 
 .navbar {
   background-color: var(--red);
+ 
+  top:0;
+  left:0;
+ 
+}
+
+.navbar-lg
+{
+  height:100px;
+}
+
+.nav-img-lg img{
+  width:250px;
+ 
 }
 
 .nav-img {
@@ -38,12 +52,12 @@ p {
 }
 
 .top-links a:hover{
-  font-size: 18px;
+ 
   color: #ff0500;
 }
 
 .lower-links a
-{
+{ font-size: 16px;
   color:gray;
 }
 
