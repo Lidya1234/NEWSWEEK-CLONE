@@ -3,9 +3,7 @@
 
 First Bootstrap project of Lidya Ghebreigziabher and Meron Ogubai
 
-<img src="images/Screenshot.jpg" alt="NEWSWEEK_CLONE">
-
-Additional description about the project and its features.
+<img src="images/screenshot.png" alt="NEWSWEEK_CLONE">
 
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a collaborative project which recreates a responsive clone of the NEWSWEEK website using bootstrap.
 
@@ -23,9 +21,9 @@ Prerequisites Text editor,Github profile and Git.
 
 👤 Author1
 
--Github: [@Lidya-github ](https://github.com/Lidya1234)
+- Github: [@Lidya-github ](https://github.com/Lidya1234)
 - Twitter: [@Lidya-twitter](https://twitter.com/Lidya42676629)
--Linkedin: [Lidya-linkedin-link](https://www.linkedin.com/in/lidya-ghebreigziabher-4a94391aa/)
+- Linkedin: [Lidya-linkedin-link](https://www.linkedin.com/in/lidya-ghebreigziabher-4a94391aa/)
 
 
 👤 Author2
@@ -33,8 +31,6 @@ Prerequisites Text editor,Github profile and Git.
 - Twitter: [@MeronDev](https://twitter.com/MeronDev)
 - Linkedin: [linkedin](https://linkedin.com/in/meron-ogbai-467414198/)
 
-
-Github: @meronokbay Linkedin: [Meron-linkedin-link]((https://linkedin.com/in/meron-ogbai-467414198/)
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
