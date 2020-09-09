@@ -40,7 +40,6 @@ p {
   display: none;
 }
 
-
 .top-links a {
   font-size: 18px;
   color: black;
@@ -80,11 +79,24 @@ main {
   padding: 2px 7px;
 }
 
-/* More stories img */
+.rhino-text {
+  background: #c2d4d7;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+}
+
+/* More stories */
 
 .more-stories img {
-  height: 50%;
+  height: 25%;
   padding: 15px 5px;
+}
+
+.more-stories-item p {
+  font-size: 15px;
 }
 
 /* Debate */
@@ -131,11 +143,11 @@ main {
 }
 
 .N {
-  background-color: var(red);
+  background-color: var(--red);
 }
 
 .form button {
-  background-color: var(red);
+  background-color: var(--red);
 }
 
 .form h6 {
@@ -173,10 +185,6 @@ main {
   width: 260px;
 }
 
-.news-img {
-  display: none;
-}
-
 /* Media queries tablet */
 @media (min-width: 768px) {
   .small {
@@ -202,15 +210,11 @@ main {
   .user-pfp {
     display: none;
   }
-  .news-img {
-    display: block;
-  }
 }
 
 /* Media query for small laptop */
 
 @media (min-width: 992px) {
-
   header {
     margin-top: 115px;
   }
