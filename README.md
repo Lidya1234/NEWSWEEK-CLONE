@@ -3,7 +3,7 @@
 
 First Bootstrap project of Lidya Ghebreigziabher and Meron Ogubai
 
-<img src="images/screenshot.png" alt="NEWSWEEK_CLONE">
+<img src="images/screenshot.jpg" alt="NEWSWEEK_CLONE">
 
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a collaborative project which recreates a responsive clone of the NEWSWEEK website using bootstrap.
 
