@@ -45,13 +45,13 @@ p {
   color: black;
 }
 
-.top-links a:hover {
-  color: #ff0500;
-}
-
 .lower-links a {
   font-size: 16px;
   color: gray;
+}
+
+.top-links a:hover {
+  color: #ff0500;
 }
 
 .input-sm {
