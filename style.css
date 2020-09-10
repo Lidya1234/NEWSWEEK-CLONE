@@ -1,0 +1,221 @@
+/* General */
+:root {
+  --red: #ff0500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--red);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar-lg {
+  height: 100px;
+}
+
+.nav-img-lg img {
+  width: 350px;
+}
+
+.nav-img {
+  width: 144px;
+}
+
+.login {
+  display: none;
+}
+
+.top-links a {
+  font-size: 18px;
+  color: black;
+}
+
+.lower-links a {
+  font-size: 16px;
+  color: gray;
+}
+
+.top-links a:hover {
+  color: #ff0500;
+}
+
+.input-sm {
+  width: 70px;
+}
+
+/* Main */
+
+main {
+  margin-top: 5%;
+}
+
+.middle-top-story {
+  display: none;
+}
+
+.main-img {
+  position: relative;
+}
+
+.corner-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px 7px;
+}
+
+.rhino-text {
+  background: #c2d4d7;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+}
+
+/* More stories */
+
+.more-stories img {
+  height: 25%;
+  padding: 15px 5px;
+}
+
+.more-stories-item p {
+  font-size: 15px;
+}
+
+/* Debate */
+
+.debate-item-1 {
+  border-top: 3px solid #d9d9d9;
+}
+
+.debate-item-2 {
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.debate-item img {
+  height: 75px;
+}
+
+.vs {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: -14px;
+}
+
+.separator {
+  height: 3px;
+  border: 1px #e3e3e3;
+  border-style: solid none;
+  position: relative;
+}
+
+/* Middle stories */
+
+.my-turn span {
+  background-color: #c2d4d7;
+  font-size: 13px;
+}
+
+.form-group {
+  width: 50%;
+  margin: auto;
+}
+
+.N {
+  background-color: var(--red);
+}
+
+.form button {
+  background-color: var(--red);
+}
+
+.form h6 {
+  font-size: 14px;
+}
+
+/* Overlapping images */
+
+.two-img-covers {
+  height: 300px;
+}
+
+.img-cover-1,
+.img-cover-2 {
+  width: 200px;
+  right: 15%;
+}
+
+.img-cover-1 {
+  margin-right: 20px;
+}
+
+.img-cover-2 {
+  top: 30px;
+}
+
+.two-img-covers p {
+  bottom: 0;
+  font-size: 20px;
+}
+
+/* Footer */
+
+.no-resize {
+  width: 260px;
+}
+
+/* Media queries tablet */
+@media (min-width: 768px) {
+  .small {
+    display: none;
+  }
+
+  .medium {
+    display: block;
+  }
+
+  .top-story {
+    display: none;
+  }
+
+  .middle-top-story {
+    display: initial;
+  }
+
+  .login {
+    display: initial;
+  }
+
+  .user-pfp {
+    display: none;
+  }
+}
+
+/* Media query for small laptop */
+
+@media (min-width: 992px) {
+  header {
+    margin-top: 115px;
+  }
+}
